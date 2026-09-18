@@ -4,8 +4,9 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:system-ui, -apple-system;
   background-color:hwb(190 62% 7%);
+  background: linear-gradient(50deg, snow, violet)
   
 }
 
@@ -18,8 +19,7 @@ h1 {
   background-color: #06B6D4;
   box-shadow: 0 8px 30px black;
   border-radius: 15px;
-  border-color: snow;
-  background: linear-gradient(to right, #7034d9, #ffffff);
+  background: linear-gradient(to right, #7034d9, #ffffff 45%, #7034d9);
   
   
 }
@@ -35,7 +35,6 @@ h1 {
   background-color: hwb(210 47% 2%);
   box-shadow: 0 8px 30px black;
   border-radius: 8px;
-  border-color:snow;
   justify-content: center;
   background: linear-gradient(to left, snow,hwb(277 9% 13%))
 }
@@ -56,7 +55,6 @@ h1 {
   border-block: 20px;
   border: 1px solid;
   border-radius: 10px;
-  border-color: snow;
   background-color:hwb(214 69% 13%);
   gap: 20px;
   box-shadow: 0 5px 20px black;
@@ -70,7 +68,6 @@ h1 {
   margin-bottom: 5px;
   border-block: 30px;
   border: 1px solid;
-  border-color: snow;
   border-radius:10px;
   background-color: violet;
   box-shadow: 0 3px 15px black;
@@ -92,7 +89,6 @@ h1 {
   border: 1px solid;
   border-block: 20px;
   border-radius: 10px;
-  border-color: snow;
   background-color: blueviolet;
   box-shadow: 0 3px 15px black;
   background: linear-gradient(to bottom,blueviolet, snow)
@@ -108,8 +104,8 @@ h1 {
   border-radius: 10px;
   border-color: darkviolet;
   filter: drop-shadow(10px);
-  background-color: snow;
   box-shadow: 0 2px 10px black;
+  background: linear-gradient(30deg, snow 30%, darkviolet 100%)
 }
 
 .mu {
@@ -122,7 +118,6 @@ h1 {
   border: 1px solid;
   border-block: 20px;
   border-radius: 10px;
-  border-color: snow;
   background-color: blueviolet;
   box-shadow: 0 3px 15px black;
   background: linear-gradient(to bottom,blueviolet, snow)
@@ -136,9 +131,9 @@ h1 {
   border: 1px solid;
   border-block: 30px;
   border-radius: 10px;
-  border-color: darkviolet;
   background-color: snow;
   box-shadow: 0 2px 10px black;
+  background: linear-gradient(50deg, snow 30%, darkviolet 100%)
 }
 
 .kont {
@@ -148,8 +143,33 @@ h1 {
   padding-right: 30px;
   border: 1px solid;
   border-radius: 10px;
-  border-color: snow;
   background-color: green;
   box-shadow: 0 3px 10px black;
   background: linear-gradient(to top, snow, green)
+}
+
+.mail {
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid;
+  border-block: 20px;
+  border-radius: 20px;
+  background-color: snow;
+  box-shadow: 0 5px 10px black;
+  background: linear-gradient(to left, lightslategray, snow, lightseagreen)
+}
+
+.phone {
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid;
+  border-block: 20px;
+  border-radius: 20px;
+  background-color: snow;
+  box-shadow: 0 5px 10px black;
+  background: linear-gradient(to left, lightslategray, snow, lightseagreen)
 }
